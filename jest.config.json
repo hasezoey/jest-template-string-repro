@@ -1,0 +1,20 @@
+{
+  "testEnvironment": "node",
+  "moduleFileExtensions": [
+    "js"
+  ],
+  "testPathIgnorePatterns": [
+    "/node_modules/",
+    "/lib/",
+    "/coverage/"
+  ],
+  "testRegex": ".test.js$",
+  "collectCoverage": true,
+  "collectCoverageFrom": [
+    "**/*.js",
+    "!**/*.{test.js}",
+    "!**/coverage/**/*"
+  ],
+  "coverageDirectory": "./coverage",
+  "maxConcurrency": 2
+}
