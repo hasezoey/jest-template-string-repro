@@ -4,8 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
-    "jest": "^27.1.1",
-    "envinfo": "^7.8.1"
+    "envinfo": "^7.8.1",
+    "jest": "^28.1.0"
   },
   "scripts": {
     "test": "jest"
